@@ -10,6 +10,7 @@
   "LocaleSwitcher": {
     "de": "🇩🇪 Deutsch",
     "en": "🇺🇸 English",
+    "th": "🇹🇭 Thai",
     "switchLocale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} other {Unbekannt}}",
     "label": "Sprache"
   },

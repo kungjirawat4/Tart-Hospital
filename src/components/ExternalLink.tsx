@@ -12,11 +12,11 @@ export default function ExternalLink({ description, href, title }: Props) {
       rel="noreferrer"
       target="_blank"
     >
-      <p className="text-xl font-semibold text-white">
+      <div className="text-xl font-semibold text-white">
         {title}
         {' '}
         <div className="ml-2 inline-block">→</div>
-      </p>
+      </div>
       <p className="mt-2 max-w-[250px] text-gray-400">{description}</p>
     </a>
   );
