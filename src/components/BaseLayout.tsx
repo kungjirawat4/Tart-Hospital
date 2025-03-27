@@ -3,9 +3,9 @@ import type { ReactNode } from 'react';
 import { clsx } from 'clsx';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
-import { Inter } from 'next/font/google';
+// import { Inter } from 'next/font/google';
 
-const inter = Inter({ subsets: ['latin'] });
+// const inter = Inter({ subsets: ['latin'] });
 
 type Props = {
   children: ReactNode;
@@ -19,7 +19,7 @@ export default async function BaseLayout({ children, locale }: Props) {
 
   return (
     <html className="h-full" lang={locale}>
-      <body className={clsx(inter.className, 'flex h-full flex-col')}>
+      <body className={clsx('flex h-full flex-col')}>
         <NextIntlClientProvider messages={messages}>
           {/* <Navigation /> */}
           {children}

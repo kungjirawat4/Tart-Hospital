@@ -1,6 +1,7 @@
 import type { RouteDefinition } from './types/RouteDefinition';
 import { Router } from 'express';
 import SystemStatusController from './components/system-status/SystemStatusController';
+import TartMedController from './components/tart-med/TartMedController';
 import logger from './lib/logger';
 
 function registerControllerRoutes(routes: RouteDefinition[]): Router {
@@ -38,7 +39,11 @@ export default function registerRoutes(): Router | any {
     const router = Router();
 
     // Define an array of controller objects
-    const controllers = [new SystemStatusController()];
+    const controllers = [
+      new SystemStatusController(),
+      new TartMedController(),
+
+    ];
 
     // Dynamically register routes for each controller
     controllers.forEach((controller) => {

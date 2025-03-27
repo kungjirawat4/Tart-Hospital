@@ -2,10 +2,8 @@ import type { ReactNode } from 'react';
 import clsx from 'clsx';
 import { NextIntlClientProvider } from 'next-intl';
 import { getLocale, getMessages } from 'next-intl/server';
-import { Inter } from 'next/font/google';
-import '@/styles/globals.css';
 
-const inter = Inter({ subsets: ['latin'] });
+import '@/styles/globals.css';
 
 type Props = {
   children: ReactNode;
@@ -26,7 +24,7 @@ export default async function LocaleLayout({ children }: Props) {
       <body
         className={clsx(
           'flex min-h-[100vh] flex-col bg-slate-100',
-          inter.className,
+
         )}
       >
         <NextIntlClientProvider messages={messages}>

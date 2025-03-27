@@ -62,13 +62,14 @@ export default class App {
     );
     // add multiple cors options as per your use
     const corsOptions = {
-      origin: [
-        'http://localhost:3000',
-        'http://localhost:8082/',
-        'http://example.com/',
-        'http://127.0.0.1:8082',
-        'http://127.0.0.1:3000',
-      ],
+      // origin: [
+      //   'http://localhost:3000',
+      //   'http://localhost:8082/',
+      //   'http://example.com/',
+      //   'http://127.0.0.1:8082',
+      //   'http://127.0.0.1:3000',
+      // ],
+      origin: '*',
       // exposedHeaders: '*',
       methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
       optionsSuccessStatus: 200,
