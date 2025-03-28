@@ -1,6 +1,7 @@
 import LocaleSwitcher from '@/components/LocaleSwitcher';
 // import Image from 'next/image';
 import Selectlogin from '@/components/selectlogin/page';
+import ThemeSwitcher from '@/components/theme/page';
 // import { useTranslations } from 'next-intl';
 
 export default function HomePage() {
@@ -14,8 +15,9 @@ export default function HomePage() {
     //   <Selectlogin />
     // </>
     <>
-      <div className="flex items-center">
+      <div className="flex items-center" suppressHydrationWarning>
         <LocaleSwitcher />
+        <ThemeSwitcher />
       </div>
       <Selectlogin />
     </>

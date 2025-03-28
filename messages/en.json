@@ -44,6 +44,10 @@
     "ICU": "Intensive Care Unit",
     "PM": "Pharmacy Room"
   },
+  "Login": {
+    "title": "Intensive Care Unit System",
+    "user": "Username"
+  },
   "PageLayout": {
     "links": {
       "docs": {

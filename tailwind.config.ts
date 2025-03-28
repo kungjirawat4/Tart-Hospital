@@ -3,6 +3,8 @@ import { heroui } from '@heroui/theme';
 import tailwindcssAnimate from 'tailwindcss-animate';
 
 export default {
+  darkMode: 'class', //
+  important: true,
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
@@ -87,6 +89,5 @@ export default {
       },
     },
   },
-  darkMode: 'class',
   plugins: [tailwindcssAnimate, heroui()],
 } satisfies Config;
