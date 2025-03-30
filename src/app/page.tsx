@@ -15,9 +15,9 @@ export default function HomePage() {
     //   <Selectlogin />
     // </>
     <>
-      <div className="flex items-center" suppressHydrationWarning>
-        <LocaleSwitcher />
+      <div className="flex items-center justify-end" suppressHydrationWarning>
         <ThemeSwitcher />
+        <LocaleSwitcher />
       </div>
       <Selectlogin />
     </>

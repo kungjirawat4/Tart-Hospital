@@ -1,5 +1,6 @@
 import type { RouteDefinition } from './types/RouteDefinition';
 import { Router } from 'express';
+import AuthUserController from './components/auth-user/AuthUserController';
 import SystemStatusController from './components/system-status/SystemStatusController';
 import TartMedController from './components/tart-med/TartMedController';
 import logger from './lib/logger';
@@ -42,6 +43,7 @@ export default function registerRoutes(): Router | any {
     const controllers = [
       new SystemStatusController(),
       new TartMedController(),
+      new AuthUserController(),
 
     ];
 

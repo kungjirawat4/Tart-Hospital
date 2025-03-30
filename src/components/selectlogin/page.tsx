@@ -7,7 +7,9 @@ export default function Selectlogin() {
   return (
     <>
       <div className="flex justify-center mt-8 ">
-        <div className="text-center">
+        <div
+          className="p-10  rounded-3xl shadow-md text-center w-full max-w-6xl  sm:p-40 "
+        >
           <span
             style={{
               opacity: 0,

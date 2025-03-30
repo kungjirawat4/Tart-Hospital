@@ -22,6 +22,7 @@ const Footer = () => {
             Jirawat Ratsamee
           </a>
         </p>
+
       </div>
     </footer>
   );

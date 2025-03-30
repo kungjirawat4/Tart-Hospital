@@ -15,16 +15,34 @@
     "label": "Language"
   },
   "LoginPage": {
-    "credentials": "Credentials: jane@doe.com / next-intl",
-    "description": "Please enter your details.",
+    "credentials": "Login credentials: jane@doe.com / next-intl",
+    "description": "Please enter your details",
     "email": "Email",
-    "invalidCredentials": "Please check your credentials.",
-    "invalidEmail": "Please enter a valid email address.",
-    "invalidPassword": "Please enter a password.",
-    "login": "Sign in",
+    "invalidCredentials": "Please check your information",
+    "invalidEmail": "Please enter a valid email",
+    "invalidPassword": "Please enter a password",
+    "login": "Login",
+    "user": "Username",
     "password": "Password",
-    "title": "Welcome back"
+    "title": "Welcome back",
+    "title1": "Intensive Care Unit System",
+    "reg": "Sign Up",
+    "back": "Go back to role selection",
+    "foget": "Forgot password?"
   },
+  "SignUpPage": {
+    "title": "Sign Up",
+    "user": "Full Name",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "contact": "Contact",
+    "check": "Please check your email to verify your account",
+    "click": "Click here!",
+    "cancel": "Go back",
+    "description": "Effortlessly create an account through our intuitive sign-up process."
+  },
+
   "ProfilePage": {
     "title": "Profile"
   },
@@ -43,10 +61,6 @@
     "title": "Select Login Method",
     "ICU": "Intensive Care Unit",
     "PM": "Pharmacy Room"
-  },
-  "Login": {
-    "title": "Intensive Care Unit System",
-    "user": "Username"
   },
   "PageLayout": {
     "links": {

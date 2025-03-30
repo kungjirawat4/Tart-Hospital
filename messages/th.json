@@ -22,8 +22,31 @@
     "invalidEmail": "กรุณากรอกอีเมลที่ถูกต้อง",
     "invalidPassword": "กรุณากรอกรหัสผ่าน",
     "login": "เข้าสู่ระบบ",
+    "user": "ชื่อผู้ใช้งาน",
     "password": "รหัสผ่าน",
-    "title": "ยินดีต้อนรับกลับ"
+    "title": "ยินดีต้อนรับกลับ",
+    "title1": "ระบบห้องผู้ป่วยหนัก",
+    "reg": "สมัครสมาชิก",
+    "back": "กลับไปเลือกบทบาท",
+    "foget": "ลืมรหัสผ่าน?"
+  },
+  "SignUpPage": {
+    "title": "สมัครสมาชิก",
+    "user": "ชื่อ-นามสกุล",
+    "email": "อีเมล",
+    "password": "รหัสผ่าน",
+    "confirmPassword": "ยืนยันรหัสผ่าน",
+    "contact": "ติดต่อ",
+    "check": "กรุณาตรวจสอบอีเมล์ของคุณเพื่อยืนยันบัญชีของคุณ",
+    "click": " คลิ๊กที่นี่!",
+    "cancel": "ย้อนกลับ",
+
+    "description": "Effortlessly create an account through our intuitive sign-up process."
+  },
+  "Verify": {
+    "title": "การยืนยันตัวตน",
+    "VerifyAccount": "ยืนยันบัญชี",
+    "contact": "ติดต่อ"
   },
   "ProfilePage": {
     "title": "โปรไฟล์"
@@ -43,10 +66,6 @@
     "title": "เลือกช่องทางการเข้าสู่ระบบ",
     "ICU": "ห้องผู้ป่วยหนัก",
     "PM": "ห้องจ่ายยา"
-  },
-  "Login": {
-    "title": "ระบบห้องผู้ป่วยหนัก",
-    "user": "ชื่อผู้ใช้งาน"
   },
   "PageLayout": {
     "links": {

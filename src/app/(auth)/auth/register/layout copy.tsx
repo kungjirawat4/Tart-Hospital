@@ -1,6 +1,3 @@
-import meta from '@/libs/meta'
-import { logo, siteName } from '@/libs/setting'
-
 // export const metadata = meta({
 //   title: 'Login',
 //   description: `Login at ${siteName}.`,
@@ -17,7 +14,7 @@ export async function generateMetadata() {
 export default function LoginLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
-  return <div className='w-full'>{children}</div>
+  return <div className="w-full">{children}</div>;
 }

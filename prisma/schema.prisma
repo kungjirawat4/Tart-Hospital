@@ -14,6 +14,8 @@ model User {
   email                 String                 @unique
   idCard                String?
   qrCode                String?
+  userKey               Int?                   @db.SmallInt /// เชื่อมกับปุ่มกด
+  pinId                 String?                ///รหัสPin  
   name                  String
   image                 String?
   mobile                String?
@@ -360,6 +362,8 @@ model Prescription {
   firstIssTime     DateTime? //เวลาตรวจเสร็จ
   lastDispense     DateTime? //เวลาจ่ายเสร็จ
   lastDiff         Int?       @default(0) @db.SmallInt ///เวลาได้รับยา
+  userconfirm       String? ///คนคอนเฟิมยา
+  confirmTime     DateTime? //เวลาตรวจเสร็จ
   dateQueue        DateTime   @default(now()) @db.Date
   createdAt        DateTime   @default(now())
   updatedAt        DateTime?  @updatedAt
@@ -481,6 +485,8 @@ model PrescriptionBackup {
   firstIssTime     DateTime? //เวลาตรวจเสร็จ
   lastDispense     DateTime? //เวลาจ่ายเสร็จ
   lastDiff         Int?             @default(0) @db.SmallInt ///เวลาได้รับยา
+  userconfirm      String? ///คนคอนเฟิมยา
+  confirmTime      DateTime? //เวลาตรวจเสร็จ
   dateQueue        DateTime         @default(now()) @db.Date
   createdAt        DateTime         @default(now())
   updatedAt        DateTime?        @updatedAt
